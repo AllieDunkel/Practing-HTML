@@ -55,5 +55,43 @@
         <td>Clam Strip Gizzards</td>
         <td>$6.50</td>
     </tr>
+     <tr>
+        <td>Naters Loaded Taters</td>
+        <td>$8.99</td>
+    </tr>
+     <tr>
+        <td>Depot Nachos</td>
+        <td>$10.99</td>
+    </tr>
+     <tr>
+        <td>Portobello Mushrooms</td>
+        <td>$7.99</td>
+    </tr>
+     <tr>
+        <td>Garabage Basket</td>
+        <td>$15.99</td>
+    </tr>
+    <tr>
+        <th>Salads & Sides</th>
+        <th>Prices</th>
+    <tr>
+        <td>Small Tossed Salad</td>
+        <td>$2.50</td>
+    </tr>
+     <tr>
+        <td>Chicken Salad (Grilled or Breaded</td>
+        <td>$9.99</td>
+    </tr>
+    <tr>
+        <th>Kids Meal | $6.99 | 10 and under | Served with Fries!!</th>
+    <tr>
+        <td>Grilled Cheese<td>
+    </tr>
+    <tr>
+        <td>Chicken Tenders</td>
+    </tr>
+        <td>Mac & Cheese</td>
+    </tr>
+    <tr>
     
 </table>
