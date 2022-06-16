@@ -3,11 +3,11 @@ body {
 }
 
 #logo {
-    position:relative;
+    position: relative;
     margin: 0 auto;
     width: 40%;
-    text-align:center;
-    padding-top:20px;
+    position: center;
+    padding: 5px;
     z-index: 0;
 }
 
@@ -68,29 +68,12 @@ header ul li {
     width: 960px;
     margin: 30px auto;
     min-height: 700px;
+    box-sizing: border-box;
   }
   
-#owners { 
-    width: 300px;
-    height: 300px;
-    display:inline-block;
-}
+  .pictures {
+    display: flex;
+    width: 30%;
+    padding: 10px;
 
-#outside {
-    width: 300px;
-    height: 200px;
-    display: inline-block;
-
-}
-
-
-#inside {
-    width: 300px;
-    height: 200px;
-    display:inline-block;
-}
-  
-#inside, #owners, #inside {
-    display:inline-block;
-}
-  
+  }
