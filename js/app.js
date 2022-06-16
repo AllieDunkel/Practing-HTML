@@ -30,7 +30,8 @@ console.log('app is connected.');
 // document.write('your favorite food is ' + favFood);
   
 
-  
+
+
 function favFood(){
     let favFood = prompt('What is you favorite food');
 
@@ -46,3 +47,47 @@ function favFood(){
 
   }
   favFood();
+
+//while loops require a starting value, in this case we have 0 to start
+
+let stop = 'Yes'; //SENTINAL
+while(true){
+  let input = prompt('I am over 21. Type Yes');
+  if(input === stop) {
+    break;
+  }
+}
+
+function displayRating(){
+    //code block to do.
+    let output = '';
+    let rating = prompt('How many beers can you drink?');
+    
+    for(let i = 0;  i < rating; i++){
+      output += '<img class="beer" src="https://media.istockphoto.com/vectors/hand-drawn-glass-of-beer-vector-id1038586226?k=20&m=1038586226&s=612x612&w=0&h=1GrTdY-samaQRovrcbwuFPJQUwsjI7UyWWSXpZL9bFA=" />'
+ }
+     return document.write(output);
+    }
+    displayRating();
+    
+    
+
+
+function getUserName(){
+    //proof of life
+    console.log('in the user name function') 
+    let userNameInput
+}
+
+do {
+    userNameInput = prompt ('What is your Name?');
+    if (userNameInput != '') {
+        alert ('try again');
+    } else {
+    alert('Welcome ' + userNameInput);
+}
+} while(userNameInput != '')
+
+getUserName();
+
+
