@@ -28,20 +28,21 @@ console.log('app is connected.');
 // console.log('our return message', favFood);
 
 // document.write('your favorite food is ' + favFood);
+  
 
-
+  
 function favFood(){
-    let userfavFood = prompt('what is your favorite food?');
-    let message;
-  
-    if(favFood === 'pizza' || favFood === 'burgers' ||  favFood ==='salads' || favFood === 'nachos'){
-      let userfavFood = prompt('What is your favorite food?');
-    } else {
-      message = 'we got those' ;
-    }
-   return message;
-  
+    let favFood = prompt('What is you favorite food');
+
+    if (favFood !== 'pizza' && favFood !== 'burgers' &&  favFood !== 'salads') {
+        alert ('try again');
+        favFood = prompt('What is you favorite food');
+     } else if(favFood === 'pizza' || favFood === 'burgers' ||  favFood === 'salads') {
+        alert ('we got those!');
+ }
+
+    console.log('favFood', favFood);
+    return document.write('Your favorite food is ' + favFood + '!');
+
   }
-  
   favFood();
-  
