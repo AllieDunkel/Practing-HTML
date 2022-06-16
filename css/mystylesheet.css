@@ -1,3 +1,7 @@
+* {
+  box-sizing:border-box;
+}
+
 body {
     background-color: beige;
 }
@@ -11,9 +15,6 @@ body {
     z-index: 0;
 }
 
-h2 {
-    color: blue;
-}
 header ul li {
     display: inline-block; 
     text-decoration: none; 
@@ -36,7 +37,7 @@ table{
   }
   
   header {
-    background-color: rgb(224, 206, 209);
+    background-color: pink;
     height: 100px;
   }
   
