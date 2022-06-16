@@ -20,6 +20,10 @@ header ul li {
     text-decoration: hover;
 }
 
+table{
+    border: 10px;
+    background-color: pink;
+}
 
   
   ul{
