@@ -64,7 +64,7 @@ function displayRating(){
     let rating = prompt('How many beers can you drink?');
     
     for(let i = 0;  i < rating; i++){
-      output += '<img class="beer" src="https://media.istockphoto.com/vectors/hand-drawn-glass-of-beer-vector-id1038586226?k=20&m=1038586226&s=612x612&w=0&h=1GrTdY-samaQRovrcbwuFPJQUwsjI7UyWWSXpZL9bFA=" />'
+      output += '<img style="width:25px"; "height:25px" class="beer" src="https://media.istockphoto.com/vectors/hand-drawn-glass-of-beer-vector-id1038586226?k=20&m=1038586226&s=612x612&w=0&h=1GrTdY-samaQRovrcbwuFPJQUwsjI7UyWWSXpZL9bFA=" />'
  }
      return document.write(output);
     }
